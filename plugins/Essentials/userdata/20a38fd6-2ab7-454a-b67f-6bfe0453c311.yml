@@ -1,0 +1,36 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.0.174
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1627323257285
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1627325828473
+  login: 1627325208350
+money: '0'
+last-account-name: HenrickTheBull
+logoutlocation:
+  world: 5d381983-dbec-482d-b765-1b256b885f97
+  x: -327.98117566599717
+  y: 74.68839011205883
+  z: 265.209378047658
+  yaw: -90.79391479492188
+  pitch: 64.79998016357422
+lastlocation:
+  world: 5d381983-dbec-482d-b765-1b256b885f97
+  x: -341.6633912987821
+  y: 49.0
+  z: 263.66772643207753
+  yaw: 8.263916015625
+  pitch: 0.6003037691116333
