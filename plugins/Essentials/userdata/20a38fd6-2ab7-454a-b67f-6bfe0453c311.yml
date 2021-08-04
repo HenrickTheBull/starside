@@ -16,17 +16,17 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1627510941377
-  login: 1627510254004
+  logout: 1628052240691
+  login: 1628051450064
 money: '0'
 last-account-name: HenrickTheBull
 logoutlocation:
   world: 5d381983-dbec-482d-b765-1b256b885f97
-  x: -188.67862349411874
+  x: -340.80169526664287
   y: 63.0
-  z: 262.6327588442651
-  yaw: -82.238525390625
-  pitch: -15.14997673034668
+  z: 276.75648024577424
+  yaw: 9.90283203125
+  pitch: 13.199670791625977
 lastlocation:
   world: 5d381983-dbec-482d-b765-1b256b885f97
   x: -341.6633912987821
