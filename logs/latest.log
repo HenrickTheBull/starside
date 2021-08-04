@@ -1,254 +1,262 @@
-[17:08:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:08:32] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[17:08:33] [Worker-Main-1/INFO]: Loaded 7 recipes
-[17:08:36] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[17:08:36] [Server thread/INFO]: Loading properties
-[17:08:36] [Server thread/INFO]: This server is running Paper version git-Paper-132 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: efd7e51)
-[17:08:36] [Server thread/INFO]: Debug logging is disabled
-[17:08:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:08:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:08:36] [Server thread/INFO]: Default game type: SURVIVAL
-[17:08:36] [Server thread/INFO]: Generating keypair
-[17:08:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:08:36] [Server thread/INFO]: Using epoll channel type
-[17:08:37] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[17:08:44] [Server thread/WARN]: Legacy plugin TreeCapitator v1.0 does not specify an api-version.
-[17:08:44] [Server thread/INFO]: [FarmControl] Loading FarmControl v1.1.8
-[17:08:44] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.50
-[17:08:45] [Server thread/INFO]: [BlueMap] Loading BlueMap v1.5.5
-[17:08:45] [Server thread/INFO]: [TreeCapitator] Loading TreeCapitator v1.0
-[17:08:45] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.4.1-SNAPSHOT
-[17:08:45] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[17:08:45] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.6-beta-01+1415e6f
-[17:08:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6a4e469f]
-[17:08:46] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0-dev+197-5e17894
-[17:08:46] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
-[17:08:46] [Server thread/INFO]: [WorldEditSUI] Loading WorldEditSUI v1.7.1
-[17:08:46] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.200
-[17:08:46] [Server thread/INFO]: [mcMMO] Registered WG flags successfully!
-[17:08:46] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.17.1-2b69191
-[17:08:46] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
-[17:08:46] [Server thread/INFO]: [HyperDrive] Loading HyperDrive v5.4.9
-[17:08:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:08:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.50
-[17:08:46] [Server thread/INFO]:         __    
-[17:08:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.50
-[17:08:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:08:46] [Server thread/INFO]: 
-[17:08:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:08:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:08:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:08:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:08:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2050ms)
-[17:08:48] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[17:08:48] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.0-dev+197-5e17894 which is not a depend, softdepend or loadbefore of this plugin.
-[17:08:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[17:08:48] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[17:08:48] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[17:08:48] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[17:08:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.6-beta-01+1415e6f
-[17:08:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:08:48] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[17:08:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_17_R1_2 as the Bukkit adapter
-[17:08:50] [Server thread/INFO]: Preparing level "world"
-[17:08:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:08:57] [Server thread/INFO]: Time elapsed: 6236 ms
-[17:08:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:02] [Server thread/INFO]: Time elapsed: 5074 ms
-[17:09:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:09:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:09:15] [Worker-Main-2/INFO]: Preparing spawn area: 11%
-[17:09:16] [Server thread/INFO]: Preparing spawn area: 45%
-[17:09:16] [Server thread/INFO]: Time elapsed: 13612 ms
-[17:09:16] [Server thread/INFO]: [FarmControl] Enabling FarmControl v1.1.8
-[17:09:16] [Server thread/INFO]: [BlueMap] Enabling BlueMap v1.5.5
-[17:09:16] [Server thread/INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
-[17:09:16] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
-[17:09:16] [Server thread/INFO]: [TreeCapitator] Enabling TreeCapitator v1.0*
-[17:09:16] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.4.1-SNAPSHOT
-[17:09:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:09:17] [Server thread/INFO]: [Geyser-Spigot] 
-[17:09:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.4.1-SNAPSHOT (git-master-46cd26f)
-[17:09:17] [Server thread/INFO]: [Geyser-Spigot] 
-[17:09:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:09:23] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[17:09:23] [Server thread/INFO]: [Geyser-Spigot] Done (5.683s)! Run /geyser help for help!
-[17:09:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0-dev+197-5e17894
-[17:09:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[17:09:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[17:09:23] [Server thread/INFO]: [Essentials] Loaded 36837 items from items.json.
-[17:09:23] [Server thread/INFO]: [Essentials] Using locale en_US
-[17:09:23] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:09:23] [Server thread/INFO]: [Essentials] Metrics disabled per bStats config.
-[17:09:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[17:09:23] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[17:09:23] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[17:09:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[17:09:24] [Server thread/INFO]: [WorldGuard] Loading region data...
-[17:09:24] [Server thread/INFO]: [WorldEditSUI] Enabling WorldEditSUI v1.7.1
-[17:09:24] [Server thread/INFO]: [WorldEditSUI] Plugin by KennyTV
-[17:09:24] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.200
-[17:09:24] [Server thread/INFO]: [mcMMO] [Debug] Loading mcMMO config.yml File...
-[17:09:25] [Server thread/INFO]: [mcMMO] [Debug] No errors found in config.yml!
-[17:09:25] [Server thread/INFO]: [mcMMO] Loading locale from plugins/mcMMO/locales/locale_override.properties
-[17:09:25] [Server thread/INFO]: [mcMMO] [Debug] Loading mcMMO advanced.yml File...
-[17:09:25] [Server thread/INFO]: [mcMMO] [Debug] No errors found in advanced.yml!
-[17:09:25] [Server thread/INFO]: [mcMMO] Platform String: 1.17.1-R0.1-SNAPSHOT
-[17:09:25] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.17.1
-[17:09:25] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
-[17:09:25] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
-[17:09:25] [Server thread/INFO]: [mcMMO] Registering enchantments for Fishing Book...
-[17:09:30] [Server thread/INFO]: [mcMMO] (plugins/mcMMO/flatfile/mcmmo.users) Validating database file..
-[17:09:31] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
-[17:09:31] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
-[17:09:31] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[17:09:31] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.17.1-2b69191
-[17:09:31] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[17:09:31] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
-[17:09:32] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[17:09:32] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
-[17:09:32] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[17:09:32] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[17:09:32] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
-[17:09:32] [Server thread/INFO]: [HyperDrive] Enabling HyperDrive v5.4.9
-[17:09:32] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] An invalid length bot token (33) has been set in the config; a valid bot token is required to connect to Discord.
-[17:09:32] [Server thread/INFO]: [HyperDrive] Everything inside the configuration seems to be up to date. (Took 15ms)
-[17:09:32] [Server thread/INFO]: [HyperDrive] Async chunk retrieving methods were found!
-[17:09:32] [Server thread/INFO]: [HyperDrive] Communication to the database was successful. (Took 0ms)
-[17:09:32] [Server thread/INFO]: [HyperDrive] v1_17_R1 packets were successfully setup! (Took 1ms)
-[17:09:32] [Server thread/INFO]: [HyperDrive] Everything is set and ready to go! (Took 121ms)
-[17:09:33] [Server thread/INFO]: [HyperDrive] Everything seems to be up to date!
-[17:09:34] [Server thread/INFO]: Running delayed init tasks
-[17:09:34] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[17:09:34] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
-[17:09:34] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading...
-[17:09:34] [Craft Scheduler Thread - 6/INFO]: [Essentials] Fetching version information...
-[17:09:34] [Craft Scheduler Thread - 5/INFO]: [mcMMO] Cleaned backup files. Deleted 3 of 6 files.
-[17:09:34] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
-[17:09:34] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 144ms
-[17:09:34] [Server thread/INFO]: Done (58.426s)! For help, type "help"
-[17:09:34] [Server thread/INFO]: Timings Reset
-[17:09:34] [pool-43-thread-1/WARN]: [DiscordSRV] Update check failed: zip file closed
-[17:09:34] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading resources...
-[17:09:34] [Thread-19/INFO]: [BlueMap] WebServer started.
-[17:09:34] [Craft Scheduler Thread - 6/WARN]: [Essentials] You're 25 EssentialsX dev build(s) out of date!
-[17:09:34] [Craft Scheduler Thread - 6/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[17:09:35] [User Authenticator #1/INFO]: UUID of player HenrickTheBull is 20a38fd6-2ab7-454a-b67f-6bfe0453c311
-[17:09:35] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
-[17:09:36] [Server thread/INFO]: HenrickTheBull joined the game
-[17:09:36] [Server thread/INFO]: HenrickTheBull[/192.168.0.174:49915] logged in with entity id 172 at ([world]-327.98117566599717, 74.68839011205883, 265.209378047658)
-[17:09:36] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 81.368771ms. Summary: Getting group for HenrickTheBull
-[17:09:37] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading bluemap assets (1/3)...
-[17:09:37] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading realms assets (2/3)...
-[17:09:38] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading minecraft assets (3/3)...
-[17:09:41] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loaded!
-[17:10:39] [Server thread/INFO]: HenrickTheBull issued server command: /day
-[17:10:45] [Server thread/INFO]: HenrickTheBull lost connection: Disconnected
-[17:10:45] [Server thread/INFO]: HenrickTheBull left the game
-[17:10:53] [User Authenticator #2/INFO]: UUID of player HenrickTheBull is 20a38fd6-2ab7-454a-b67f-6bfe0453c311
-[17:10:53] [Server thread/INFO]: HenrickTheBull joined the game
-[17:10:53] [Server thread/INFO]: HenrickTheBull[/192.168.0.174:58202] logged in with entity id 742 at ([world]-325.27016771209514, 63.0, 307.51032312297883)
-[17:10:55] [Server thread/INFO]: Named entity EntityZombie['Zombie'/627, uuid='b5ff000a-77c7-4bcb-9812-5ebe8854a848', l='ServerLevel[world]', x=-317.44, y=63.00, z=312.65, cpos=[-20, 19], tl=590, v=true, rR=null] died: Zombie was slain by Wolf
-[17:14:18] [Server thread/INFO]: HenrickTheBull issued server command: //desel
-[17:16:46] [Server thread/INFO]: HenrickTheBull issued server command: /help GriefPrevention
-[17:17:04] [Server thread/INFO]: HenrickTheBull issued server command: /help GriefPrevention 2
-[17:17:20] [Server thread/INFO]: HenrickTheBull issued server command: /claimbook
-[17:17:25] [Server thread/INFO]: HenrickTheBull issued server command: /claimbook HenrickTheBull
-[17:18:29] [Server thread/INFO]: HenrickTheBull issued server command: /abandonallclaims confirm
-[17:20:03] [Server thread/INFO]: HenrickTheBull issued server command: /gms
-[17:21:15] [Server thread/INFO]: HenrickTheBull issued server command: /gmc
-[17:22:21] [Server thread/INFO]: HenrickTheBull lost connection: Disconnected
-[17:22:21] [Server thread/INFO]: HenrickTheBull left the game
-[17:24:34] [Craft Scheduler Thread - 95/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
-[17:33:22] [Server thread/INFO]: Stopping server
-[17:33:22] [Server thread/INFO]: [HyperDrive] Disabling HyperDrive v5.4.9
-[17:33:22] [Server thread/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
-[17:33:22] [Server thread/WARN]: [HyperDrive] The SQL connection has been completely closed.
-[17:33:22] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.17.1-2b69191
-[17:33:22] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
-[17:33:22] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.200
-[17:33:22] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
-[17:33:22] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
-[17:33:22] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
-[17:33:22] [Server thread/INFO]: [WorldEditSUI] Disabling WorldEditSUI v1.7.1
-[17:33:22] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
-[17:33:22] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[17:33:22] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.0-dev+197-5e17894
-[17:33:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[17:33:22] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.6-beta-01+1415e6f
-[17:33:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[17:33:22] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[17:33:22] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v1.4.1-SNAPSHOT
-[17:33:22] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[17:33:22] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[17:33:22] [Server thread/INFO]: [TreeCapitator] Disabling TreeCapitator v1.0
-[17:33:22] [Server thread/INFO]: [BlueMap] Disabling BlueMap v1.5.5
-[17:33:22] [Server thread/INFO]: [BlueMap] Stopping...
-[17:33:23] [Thread-19/INFO]: [BlueMap] WebServer closed.
-[17:33:23] [Server thread/INFO]: [BlueMap] Saved and stopped!
-[17:33:23] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.50
-[17:33:23] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:33:23] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:33:23] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:33:23] [Server thread/INFO]: [FarmControl] Disabling FarmControl v1.1.8
-[17:33:23] [Server thread/INFO]: Saving players
-[17:33:23] [Server thread/INFO]: Saving worlds
-[17:33:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:33:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:33:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:33:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:33:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:33:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:33:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:33:27] [Server thread/INFO]: Flushing Chunk IO
-[17:33:27] [Server thread/INFO]: Closing Thread Pool
-[17:33:27] [Server thread/INFO]: Closing Server
+[21:21:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:21:10] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[21:21:12] [Worker-Main-1/INFO]: Loaded 7 recipes
+[21:21:13] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[21:21:13] [Server thread/INFO]: Loading properties
+[21:21:13] [Server thread/INFO]: This server is running Paper version git-Paper-132 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: efd7e51)
+[21:21:14] [Server thread/INFO]: Debug logging is disabled
+[21:21:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:21:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:21:14] [Server thread/INFO]: Default game type: SURVIVAL
+[21:21:14] [Server thread/INFO]: Generating keypair
+[21:21:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:21:14] [Server thread/INFO]: Using epoll channel type
+[21:21:15] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:21:22] [Server thread/WARN]: Legacy plugin TreeCapitator v1.0 does not specify an api-version.
+[21:21:22] [Server thread/INFO]: [FarmControl] Loading FarmControl v1.1.8
+[21:21:22] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.50
+[21:21:23] [Server thread/INFO]: [BlueMap] Loading BlueMap v1.5.5
+[21:21:23] [Server thread/INFO]: [TreeCapitator] Loading TreeCapitator v1.0
+[21:21:23] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.4.1-SNAPSHOT
+[21:21:23] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[21:21:23] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.6-beta-01+1415e6f
+[21:21:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6cab6c54]
+[21:21:23] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0-dev+197-5e17894
+[21:21:23] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[21:21:23] [Server thread/INFO]: [WorldEditSUI] Loading WorldEditSUI v1.7.1
+[21:21:23] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.200
+[21:21:23] [Server thread/INFO]: [mcMMO] Registered WG flags successfully!
+[21:21:23] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.17.1-2b69191
+[21:21:23] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
+[21:21:23] [Server thread/INFO]: [HyperDrive] Loading HyperDrive v5.4.9
+[21:21:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:21:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.50
+[21:21:24] [Server thread/INFO]:         __    
+[21:21:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.50
+[21:21:24] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:21:24] [Server thread/INFO]: 
+[21:21:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:21:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:21:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:21:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:21:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1547ms)
+[21:21:25] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:21:25] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.0-dev+197-5e17894 which is not a depend, softdepend or loadbefore of this plugin.
+[21:21:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:21:25] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:21:25] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:21:25] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[21:21:25] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.6-beta-01+1415e6f
+[21:21:25] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:21:25] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[21:21:25] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_17_R1_2 as the Bukkit adapter
+[21:21:27] [Server thread/INFO]: Preparing level "world"
+[21:21:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:21:34] [Server thread/INFO]: Time elapsed: 6107 ms
+[21:21:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:21:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:39] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:39] [Server thread/INFO]: Time elapsed: 4821 ms
+[21:21:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:50] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:21:51] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:21:52] [Server thread/INFO]: Preparing spawn area: 0%
+[21:21:52] [Server thread/INFO]: Preparing spawn area: 17%
+[21:21:52] [Server thread/INFO]: Preparing spawn area: 42%
+[21:21:53] [Server thread/INFO]: Time elapsed: 13585 ms
+[21:21:53] [Server thread/INFO]: [FarmControl] Enabling FarmControl v1.1.8
+[21:21:53] [Server thread/INFO]: [BlueMap] Enabling BlueMap v1.5.5
+[21:21:53] [Server thread/INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
+[21:21:53] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[21:21:53] [Server thread/INFO]: [TreeCapitator] Enabling TreeCapitator v1.0*
+[21:21:53] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.4.1-SNAPSHOT
+[21:21:54] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:21:54] [Server thread/INFO]: [Geyser-Spigot] 
+[21:21:54] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.4.1-SNAPSHOT (git-master-46cd26f)
+[21:21:54] [Server thread/INFO]: [Geyser-Spigot] 
+[21:21:54] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:21:58] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[21:21:58] [Server thread/INFO]: [Geyser-Spigot] Done (4.738s)! Run /geyser help for help!
+[21:21:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0-dev+197-5e17894
+[21:21:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:21:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:21:59] [Server thread/INFO]: [Essentials] Loaded 36837 items from items.json.
+[21:21:59] [Server thread/INFO]: [Essentials] Using locale en_US
+[21:21:59] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:21:59] [Server thread/INFO]: [Essentials] Metrics disabled per bStats config.
+[21:21:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:21:59] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[21:21:59] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:22:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:22:00] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:22:00] [Server thread/INFO]: [WorldEditSUI] Enabling WorldEditSUI v1.7.1
+[21:22:00] [Server thread/INFO]: [WorldEditSUI] Plugin by KennyTV
+[21:22:00] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.200
+[21:22:05] [Server thread/INFO]: [mcMMO] [Debug] Loading mcMMO config.yml File...
+[21:22:05] [Server thread/INFO]: [mcMMO] [Debug] No errors found in config.yml!
+[21:22:05] [Server thread/INFO]: [mcMMO] Loading locale from plugins/mcMMO/locales/locale_override.properties
+[21:22:05] [Server thread/INFO]: [mcMMO] [Debug] Loading mcMMO advanced.yml File...
+[21:22:05] [Server thread/INFO]: [mcMMO] [Debug] No errors found in advanced.yml!
+[21:22:05] [Server thread/INFO]: [mcMMO] Platform String: 1.17.1-R0.1-SNAPSHOT
+[21:22:05] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.17.1
+[21:22:05] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
+[21:22:05] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
+[21:22:05] [Server thread/INFO]: [mcMMO] Registering enchantments for Fishing Book...
+[21:22:10] [Server thread/INFO]: [mcMMO] (plugins/mcMMO/flatfile/mcmmo.users) Validating database file..
+[21:22:10] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
+[21:22:10] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
+[21:22:10] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[21:22:10] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.17.1-2b69191
+[21:22:11] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[21:22:11] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[21:22:11] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[21:22:11] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[21:22:11] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[21:22:11] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[21:22:11] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
+[21:22:11] [Server thread/INFO]: [HyperDrive] Enabling HyperDrive v5.4.9
+[21:22:12] [Server thread/INFO]: [HyperDrive] Everything inside the configuration seems to be up to date. (Took 25ms)
+[21:22:12] [Server thread/INFO]: [HyperDrive] Async chunk retrieving methods were found!
+[21:22:12] [Server thread/INFO]: [HyperDrive] Communication to the database was successful. (Took 0ms)
+[21:22:12] [Server thread/INFO]: [HyperDrive] v1_17_R1 packets were successfully setup! (Took 0ms)
+[21:22:12] [Server thread/INFO]: [HyperDrive] Everything is set and ready to go! (Took 147ms)
+[21:22:13] [Log4j2-TF-1-AsyncLogger[AsyncContext@531d72ca]-1/INFO]: [DiscordSRV] [JDA] Login Successful!
+[21:22:13] [Server thread/INFO]: [HyperDrive] HEY YOU! There seems to be a new version out (5.5)!
+[21:22:13] [Log4j2-TF-1-AsyncLogger[AsyncContext@531d72ca]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[21:22:13] [Server thread/INFO]: Running delayed init tasks
+[21:22:13] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading...
+[21:22:13] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:22:13] [Server thread/INFO]: Done (60.103s)! For help, type "help"
+[21:22:13] [Server thread/INFO]: Timings Reset
+[21:22:13] [Craft Scheduler Thread - 6/INFO]: [Essentials] Fetching version information...
+[21:22:13] [Craft Scheduler Thread - 5/INFO]: [mcMMO] Cleaned backup files. Deleted 2 of 4 files.
+[21:22:13] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[21:22:14] [Thread-26/INFO]: [BlueMap] WebServer started.
+[21:22:14] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading resources...
+[21:22:14] [Log4j2-TF-1-AsyncLogger[AsyncContext@531d72ca]-1/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[21:22:14] [Craft Scheduler Thread - 6/WARN]: [Essentials] You're 35 EssentialsX dev build(s) out of date!
+[21:22:14] [Craft Scheduler Thread - 6/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Kesto(765330675565330473)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🚀crashlands(769345380164567041)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:❗rules(765334761321136168)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📣announcements(767619192773935141)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ℹinfo(772207088415539251)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:polls(826498125572997200)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🤝affiliates(769345149431971862)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎭creator-of-the-week(769345190082641930)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔍commission-spotlight(769345293820624909)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔖roles(769347871538675743)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌐-network-updates(815786192624680960)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💬general(765365452653461544)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:👋introductions(769346413422837820)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🏹minecraft(769346357781069825)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💡suggestions(769346442287906857)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📰cw-controversial(769346567974420482)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⚠cw-sensitive(868601919332053032)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-only(776612053770174474)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🗣type-to-speech(769346732727074868)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:music-commands(819701839800434688)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:dash-commands(784629926312935454)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎨artist-promo(769349450975543350)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎥streamer-promo(769349426405572618)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📝writer-promo(769349476182917162)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📋art-commissions(769349506100625418)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📹video-promo(769357845254504468)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:✍writing-commissions(769349537579139072)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎮gaming-zone(769356754399920168)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🗣type-to-game(769356799995412500)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:chat-cast(776194135072833626)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎬clips(769357321649258526)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📖streamer-resources(769357466215120896)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎙streamer-chat(769357526952443905)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔧editing-room(769357171493437440)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📑video-creators-resources(769357307125039124)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📚the-library(769429236527136799)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📃writers-lounge(769356922188857364)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📓writers-resources(769356999145160725)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:sprints(851599222183690251)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:the-workshop(851599250960678924)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-spam(869313101034561606)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📌art-pinup(769429104972791818)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎨artist-cafe(769356128852115467)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🧾art-requests(769356190370365450)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🖼references-n-tips(769356251648753674)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📚artist-resources(769356885794881546)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:voice-clips(799537907081019412)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔊voice-lounge(769432157407281192)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎤voice-acting-resources(769432204727943178)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-spam(869313167459778620)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🖼irl-pictures(769356143272263690)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🕶dank-memes(769355473861738547)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🍗tasty-foods(769355564400377887)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:😈cursed-things(769355615914688554)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💕wholesome-corner(769355942126288897)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💜cute-critters(769356101715361852)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🆙bump-the-server(781977097123921960)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:moderator-only(765334761321136169)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:member(769345732481908786)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:voice(769345752303665162)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server(769345779805454357)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:default(769345794917662751)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:join-leave(769345816611258368)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:message(769345836999114783)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:updates(769345858797699102)
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[21:22:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
+[21:22:15] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
+[21:22:15] [pool-43-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (ae26c8fa7a85120ccb1cf9bc46d8de316c1a5db8)
+[21:22:16] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading bluemap assets (1/3)...
+[21:22:16] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading realms assets (2/3)...
+[21:22:16] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading minecraft assets (3/3)...
+[21:22:19] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loaded!
+[21:24:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Executives] Henrick > You can chat in here by taking the Minecraft Role in #:bookmark:roles
+[21:26:00] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[21:26:01] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
+[21:26:01] [luckperms-command-executor/INFO]: https://luckperms.net/editor/dDEb6RGsdL
