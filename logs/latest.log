@@ -260,3 +260,58 @@
 [21:26:00] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
 [21:26:01] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
 [21:26:01] [luckperms-command-executor/INFO]: https://luckperms.net/editor/dDEb6RGsdL
+[21:26:58] [Log4j2-TF-1-AsyncLogger[AsyncContext@531d72ca]-1/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[21:27:01] [Log4j2-TF-1-AsyncLogger[AsyncContext@531d72ca]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[21:27:01] [Log4j2-TF-1-AsyncLogger[AsyncContext@531d72ca]-1/ERROR]: [DiscordSRV] [JDA] WebSocket connection was closed and cannot be recovered due to identification issues
+CloseCode(4004 / The account token sent with your identify payload is incorrect.)
+[21:27:01] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[21:27:01] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[21:27:01] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  DiscordSRV was disconnected from Discord because:
+[21:27:01] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  The bot token is invalid
+[21:27:01] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[21:27:01] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[21:27:01] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
+[21:27:01] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Saved linked accounts in 3ms
+[21:27:06] [DiscordSRV - Shutdown/WARN]: [DiscordSRV] JDA took too long to shut down, skipping
+[21:27:06] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 5010ms
+[21:27:25] [Server thread/INFO]: Stopping server
+[21:27:25] [Server thread/INFO]: [HyperDrive] Disabling HyperDrive v5.4.9
+[21:27:25] [Server thread/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
+[21:27:25] [Server thread/WARN]: [HyperDrive] The SQL connection has been completely closed.
+[21:27:25] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.17.1-2b69191
+[21:27:25] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[21:27:25] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.200
+[21:27:25] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[21:27:25] [Server thread/INFO]: [WorldEditSUI] Disabling WorldEditSUI v1.7.1
+[21:27:25] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[21:27:25] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[21:27:25] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.0-dev+197-5e17894
+[21:27:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[21:27:25] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.6-beta-01+1415e6f
+[21:27:25] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:27:25] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[21:27:25] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v1.4.1-SNAPSHOT
+[21:27:25] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[21:27:25] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[21:27:25] [Server thread/INFO]: [TreeCapitator] Disabling TreeCapitator v1.0
+[21:27:25] [Server thread/INFO]: [BlueMap] Disabling BlueMap v1.5.5
+[21:27:25] [Server thread/INFO]: [BlueMap] Stopping...
+[21:27:25] [Server thread/INFO]: [BlueMap] Saved and stopped!
+[21:27:25] [Thread-26/INFO]: [BlueMap] WebServer closed.
+[21:27:25] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.50
+[21:27:25] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:27:25] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:27:25] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:27:25] [Server thread/INFO]: [FarmControl] Disabling FarmControl v1.1.8
+[21:27:25] [Server thread/INFO]: Saving players
+[21:27:25] [Server thread/INFO]: Saving worlds
+[21:27:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:27:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:27:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:27:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:27:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:27:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:27:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:27:28] [Server thread/INFO]: Flushing Chunk IO
+[21:27:28] [Server thread/INFO]: Closing Thread Pool
+[21:27:28] [Server thread/INFO]: Closing Server
