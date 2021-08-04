@@ -1,641 +1,254 @@
-[12:07:40] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:07:40] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[12:07:42] [Worker-Main-1/INFO]: Loaded 7 recipes
-[12:07:44] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[12:07:44] [Server thread/INFO]: Loading properties
-[12:07:44] [Server thread/INFO]: This server is running Paper version git-Paper-132 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: efd7e51)
-[12:07:44] [Server thread/INFO]: Debug logging is disabled
-[12:07:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:07:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:07:44] [Server thread/INFO]: Default game type: SURVIVAL
-[12:07:44] [Server thread/INFO]: Generating keypair
-[12:07:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:07:45] [Server thread/INFO]: Using epoll channel type
-[12:07:46] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[12:07:53] [Server thread/WARN]: Legacy plugin TreeCapitator v1.0 does not specify an api-version.
-[12:07:54] [Server thread/INFO]: [FarmControl] Loading FarmControl v1.1.8
-[12:07:54] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.50
-[12:07:54] [Server thread/INFO]: [BlueMap] Loading BlueMap v1.5.5
-[12:07:54] [Server thread/INFO]: [TreeCapitator] Loading TreeCapitator v1.0
-[12:07:54] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.4.1-SNAPSHOT
-[12:07:54] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[12:07:54] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.6-beta-01+1415e6f
-[12:07:55] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@52ebf947]
-[12:07:55] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0-dev+197-5e17894
-[12:07:55] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
-[12:07:55] [Server thread/INFO]: [WorldEditSUI] Loading WorldEditSUI v1.7.1
-[12:07:55] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.200
-[12:07:55] [Server thread/INFO]: [mcMMO] Registered WG flags successfully!
-[12:07:55] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.17.1-2b69191
-[12:07:55] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
-[12:07:55] [Server thread/INFO]: [HyperDrive] Loading HyperDrive v5.4.9
-[12:07:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:07:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.50
-[12:07:55] [Server thread/INFO]:         __    
-[12:07:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.50
-[12:07:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[12:07:55] [Server thread/INFO]: 
-[12:07:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[12:07:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[12:07:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[12:07:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[12:07:57] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1967ms)
-[12:07:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[12:07:57] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.0-dev+197-5e17894 which is not a depend, softdepend or loadbefore of this plugin.
-[12:07:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[12:07:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[12:07:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[12:07:57] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[12:07:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.6-beta-01+1415e6f
-[12:07:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[12:07:57] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[12:07:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_17_R1_2 as the Bukkit adapter
-[12:07:59] [Server thread/INFO]: Preparing level "world"
-[12:08:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:08:05] [Server thread/INFO]: Time elapsed: 5008 ms
-[12:08:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:08:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:08] [Server thread/INFO]: Time elapsed: 3546 ms
-[12:08:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:08:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[12:08:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[12:08:15] [Server thread/INFO]: Time elapsed: 6562 ms
-[12:08:15] [Server thread/INFO]: [FarmControl] Enabling FarmControl v1.1.8
-[12:08:15] [Server thread/INFO]: [BlueMap] Enabling BlueMap v1.5.5
-[12:08:15] [Server thread/INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
-[12:08:15] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
-[12:08:15] [Server thread/INFO]: [TreeCapitator] Enabling TreeCapitator v1.0*
-[12:08:15] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.4.1-SNAPSHOT
-[12:08:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:08:16] [Server thread/INFO]: [Geyser-Spigot] 
-[12:08:16] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.4.1-SNAPSHOT (git-master-46cd26f)
-[12:08:16] [Server thread/INFO]: [Geyser-Spigot] 
-[12:08:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:08:24] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[12:08:25] [Server thread/INFO]: [Geyser-Spigot] Done (8.353s)! Run /geyser help for help!
-[12:08:25] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0-dev+197-5e17894
-[12:08:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[12:08:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[12:08:25] [Server thread/INFO]: [Essentials] Loaded 36837 items from items.json.
-[12:08:25] [Server thread/INFO]: [Essentials] Using locale en_US
-[12:08:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[12:08:26] [Server thread/INFO]: [Essentials] Metrics disabled per bStats config.
-[12:08:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[12:08:26] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[12:08:26] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[12:08:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[12:08:26] [Server thread/INFO]: [WorldGuard] Loading region data...
-[12:08:26] [ForkJoinPool.commonPool-worker-3/INFO]: [Geyser-Spigot] Downloading Minecraft JAR to extract en_us locale, please wait... (this may take some time depending on the speed of your internet connection)
-[12:08:26] [Server thread/INFO]: [WorldEditSUI] Enabling WorldEditSUI v1.7.1
-[12:08:26] [Server thread/INFO]: [WorldEditSUI] Plugin by KennyTV
-[12:08:26] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.200
-[12:08:27] [Server thread/INFO]: [mcMMO] [Debug] Loading mcMMO config.yml File...
-[12:08:27] [Server thread/INFO]: [mcMMO] [Debug] No errors found in config.yml!
-[12:08:27] [Server thread/INFO]: [mcMMO] Loading locale from plugins/mcMMO/locales/locale_override.properties
-[12:08:27] [Server thread/INFO]: [mcMMO] [Debug] Loading mcMMO advanced.yml File...
-[12:08:27] [Server thread/INFO]: [mcMMO] [Debug] No errors found in advanced.yml!
-[12:08:27] [Server thread/INFO]: [mcMMO] Platform String: 1.17.1-R0.1-SNAPSHOT
-[12:08:27] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.17.1
-[12:08:27] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
-[12:08:27] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
-[12:08:27] [Server thread/INFO]: [mcMMO] Registering enchantments for Fishing Book...
-[12:08:32] [Server thread/INFO]: [mcMMO] (plugins/mcMMO/flatfile/mcmmo.users) Validating database file..
-[12:08:32] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
-[12:08:32] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
-[12:08:32] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
-[12:08:33] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.17.1-2b69191
-[12:08:33] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[12:08:33] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
-[12:08:34] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[12:08:34] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
-[12:08:34] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[12:08:34] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[12:08:34] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
-[12:08:34] [Server thread/INFO]: [HyperDrive] Enabling HyperDrive v5.4.9
-[12:08:34] [Server thread/INFO]: [HyperDrive] Everything inside the configuration seems to be up to date. (Took 15ms)
-[12:08:34] [Server thread/INFO]: [HyperDrive] Async chunk retrieving methods were found!
-[12:08:34] [Server thread/INFO]: [HyperDrive] Communication to the database was successful. (Took 0ms)
-[12:08:34] [Server thread/INFO]: [HyperDrive] v1_17_R1 packets were successfully setup! (Took 1ms)
-[12:08:34] [Server thread/INFO]: [HyperDrive] Everything is set and ready to go! (Took 113ms)
-[12:08:35] [Log4j2-TF-1-AsyncLogger[AsyncContext@531d72ca]-1/INFO]: [DiscordSRV] [JDA] Login Successful!
-[12:08:35] [Server thread/INFO]: [HyperDrive] Everything seems to be up to date!
-[12:08:35] [Log4j2-TF-1-AsyncLogger[AsyncContext@531d72ca]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[12:08:35] [pool-43-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (ae26c8fa7a85120ccb1cf9bc46d8de316c1a5db8)
-[12:08:36] [Log4j2-TF-1-AsyncLogger[AsyncContext@531d72ca]-1/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Kesto(765330675565330473)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🚀crashlands(769345380164567041)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:❗rules(765334761321136168)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📣announcements(767619192773935141)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ℹinfo(772207088415539251)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:polls(826498125572997200)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🤝affiliates(769345149431971862)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎭creator-of-the-week(769345190082641930)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔍commission-spotlight(769345293820624909)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔖roles(769347871538675743)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🌐-network-updates(815786192624680960)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💬general(765365452653461544)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:👋introductions(769346413422837820)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🏹minecraft(769346357781069825)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💡suggestions(769346442287906857)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📰cw-controversial(769346567974420482)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⚠cw-sensitive(868601919332053032)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-only(776612053770174474)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🗣type-to-speech(769346732727074868)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:music-commands(819701839800434688)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:dash-commands(784629926312935454)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎨artist-promo(769349450975543350)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎥streamer-promo(769349426405572618)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📝writer-promo(769349476182917162)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📋art-commissions(769349506100625418)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📹video-promo(769357845254504468)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:✍writing-commissions(769349537579139072)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎮gaming-zone(769356754399920168)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🗣type-to-game(769356799995412500)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:chat-cast(776194135072833626)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎬clips(769357321649258526)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📖streamer-resources(769357466215120896)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎙streamer-chat(769357526952443905)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔧editing-room(769357171493437440)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📑video-creators-resources(769357307125039124)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📚the-library(769429236527136799)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📃writers-lounge(769356922188857364)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📓writers-resources(769356999145160725)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:sprints(851599222183690251)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:the-workshop(851599250960678924)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-spam(851602809707167784)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📌art-pinup(769429104972791818)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎨artist-cafe(769356128852115467)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🧾art-requests(769356190370365450)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🖼references-n-tips(769356251648753674)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📚artist-resources(769356885794881546)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:voice-clips(799537907081019412)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔊voice-lounge(769432157407281192)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎤voice-acting-resources(769432204727943178)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🖼irl-pictures(769356143272263690)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🕶dank-memes(769355473861738547)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🍗food-porn(769355564400377887)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:😈cursed-things(769355615914688554)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💕wholesome-corner(769355942126288897)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💜cute-critters(769356101715361852)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🆙bump-the-server(781977097123921960)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:moderator-only(765334761321136169)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:member(769345732481908786)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:voice(769345752303665162)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server(769345779805454357)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:default(769345794917662751)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:join-leave(769345816611258368)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:message(769345836999114783)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:updates(769345858797699102)
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
-[12:08:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
-[12:08:36] [Server thread/INFO]: Running delayed init tasks
-[12:08:36] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[12:08:36] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading...
-[12:08:36] [Server thread/INFO]: Done (52.336s)! For help, type "help"
-[12:08:36] [Server thread/INFO]: Timings Reset
-[12:08:36] [Craft Scheduler Thread - 6/INFO]: [Essentials] Fetching version information...
-[12:08:36] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
-[12:08:36] [Craft Scheduler Thread - 6/WARN]: [Essentials] You're 24 EssentialsX dev build(s) out of date!
-[12:08:36] [Craft Scheduler Thread - 6/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[12:08:37] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading resources...
-[12:08:37] [Thread-25/INFO]: [BlueMap] WebServer started.
-[12:08:38] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
-[12:08:39] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading bluemap assets (1/3)...
-[12:08:40] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading realms assets (2/3)...
-[12:08:40] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading minecraft assets (3/3)...
-[12:08:44] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loaded!
-[12:13:52] [Network Listener - #1/INFO]: [Geyser-Spigot] /192.168.0.174:53180 tried to connect!
-[12:13:53] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username BullyHenrick
-[12:14:21] [epollEventLoopGroup-2-1/INFO]: [Geyser-Spigot] BullyHenrick (logged in as: HenrickTheBull) has connected to remote java server on address 127.0.0.1
-[12:14:22] [User Authenticator #1/INFO]: UUID of player HenrickTheBull is 20a38fd6-2ab7-454a-b67f-6bfe0453c311
-[12:14:23] [Server thread/INFO]: HenrickTheBull joined the game
-[12:14:24] [Server thread/INFO]: HenrickTheBull[/127.0.0.1:42301] logged in with entity id 273 at ([world]-349.53268923214887, 63.0, 272.41029882736535)
-[12:14:24] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 42.869262ms. Summary: Getting group for HenrickTheBull
-[12:14:28] [Craft Scheduler Thread - 40/INFO]: [mcMMO] Creating new data for player: HenrickTheBull
-[12:17:10] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /192.168.0.174 has disconnected for reason CLOSED_BY_REMOTE_PEER
-[12:17:10] [epollEventLoopGroup-2-1/INFO]: [Geyser-Spigot] BullyHenrick has disconnected from remote Java server on address 127.0.0.1 because of CLOSED_BY_REMOTE_PEER
-[12:17:10] [Server thread/INFO]: HenrickTheBull lost connection: Disconnected
-[12:17:10] [Server thread/INFO]: HenrickTheBull left the game
-[12:23:36] [Craft Scheduler Thread - 92/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
-[12:23:46] [User Authenticator #2/INFO]: UUID of player HenrickTheBull is 20a38fd6-2ab7-454a-b67f-6bfe0453c311
-[12:23:46] [Server thread/INFO]: HenrickTheBull joined the game
-[12:23:46] [Server thread/INFO]: HenrickTheBull[/192.168.0.174:63586] logged in with entity id 818 at ([world]-345.8634, 63.0, 263.41727)
-[12:23:49] [Craft Scheduler Thread - 95/INFO]: [mcMMO] Creating new data for player: HenrickTheBull
-[12:24:46] [Server thread/INFO]: HenrickTheBull issued server command: /lp applyedits BX7aMKmLtQ
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (mod)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add group.default true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (mod)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add displayname.Mod true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (mod)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add weight.10 true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (mod)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.10.Mod true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (admin)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add group.mod true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (admin)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add weight.15 true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (admin)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add displayname.Admin true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (admin)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.15.Admin true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (owner)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add weight.20 true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (owner)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add prefix.20.Owner true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (owner)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add * true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (owner)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add group.admin true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [G] (owner)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add displayname.Owner true
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [T] (staff)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add mod
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [T] (staff)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add admin
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > (HenrickTheBull) [T] (staff)
-[12:24:47] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add owner
-[12:26:22] [Async Chat Thread - #0/INFO]: <HenrickTheBull> AAAAAA
-[12:27:10] [Server thread/INFO]: HenrickTheBull issued server command: /spawn wolf 10
-[12:27:16] [Server thread/INFO]: HenrickTheBull issued server command: /summon wo
-[12:27:22] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf 10
-[12:27:25] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:25] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:30] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:30] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:31] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:31] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:31] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:31] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:32] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:32] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:32] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:32] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:32] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:32] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:32] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:32] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:33] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:33] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:33] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:33] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:33] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:33] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:34] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:34] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:34] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:34] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:34] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:34] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:35] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:35] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:47] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:47] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:27:56] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:wolf
-[12:27:56] [Server thread/INFO]: [HenrickTheBull: Summoned new Wolf]
-[12:28:09] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:cat
-[12:28:09] [Server thread/INFO]: [HenrickTheBull: Summoned new Cat]
-[12:28:10] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:cat
-[12:28:10] [Server thread/INFO]: [HenrickTheBull: Summoned new Cat]
-[12:28:10] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:cat
-[12:28:10] [Server thread/INFO]: [HenrickTheBull: Summoned new Cat]
-[12:28:11] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:cat
-[12:28:11] [Server thread/INFO]: [HenrickTheBull: Summoned new Cat]
-[12:28:11] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:cat
-[12:28:11] [Server thread/INFO]: [HenrickTheBull: Summoned new Cat]
-[12:28:11] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:cat
-[12:28:11] [Server thread/INFO]: [HenrickTheBull: Summoned new Cat]
-[12:28:11] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:cat
-[12:28:11] [Server thread/INFO]: [HenrickTheBull: Summoned new Cat]
-[12:28:12] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:cat
-[12:28:12] [Server thread/INFO]: [HenrickTheBull: Summoned new Cat]
-[12:28:12] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:cat
-[12:28:12] [Server thread/INFO]: [HenrickTheBull: Summoned new Cat]
-[12:28:12] [Server thread/INFO]: HenrickTheBull issued server command: /summon minecraft:catt
-[12:33:53] [Server thread/INFO]: HenrickTheBull issued server command: //wand
-[12:34:56] [Server thread/INFO]: HenrickTheBull issued server command: //set 50%deepslate_bricks,50%deepslate_tiles
-[12:35:02] [Server thread/INFO]: HenrickTheBull issued server command: //desel
-[12:36:59] [Server thread/INFO]: HenrickTheBull issued server command: /sun
-[12:38:36] [Craft Scheduler Thread - 184/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
-[12:43:57] [Server thread/INFO]: HenrickTheBull issued server command: /night
-[12:45:51] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-337, z270;New Summon;Pavillion
-[12:46:43] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-347, z270;Please Proceed;To The;Pavillion;Ahead
-[12:47:43] [Server thread/INFO]: HenrickTheBull issued server command: /griefprevention:abandonallclaims
-[12:47:48] [Server thread/INFO]: HenrickTheBull issued server command: /abandon
-[12:47:51] [Server thread/INFO]: HenrickTheBull issued server command: /abandonallclaims
-[12:47:53] [Server thread/INFO]: HenrickTheBull issued server command: /abandonallclaims
-[12:47:56] [Server thread/INFO]: HenrickTheBull issued server command: /abandonallclaims confirm
-[12:48:19] [Server thread/INFO]: HenrickTheBull issued server command: /griefprevention:help
-[12:48:24] [Server thread/INFO]: HenrickTheBull issued server command: /help
-[12:48:30] [Server thread/INFO]: HenrickTheBull issued server command: /help 2
-[12:48:39] [Server thread/INFO]: HenrickTheBull issued server command: /help GriefPrevention
-[12:48:58] [Server thread/INFO]: HenrickTheBull issued server command: /help GriefPrevention 2
-[12:49:07] [Server thread/INFO]: HenrickTheBull issued server command: /help GriefPrevention 3
-[12:49:12] [Server thread/INFO]: HenrickTheBull issued server command: /help GriefPrevention 4
-[12:49:28] [Server thread/INFO]: HenrickTheBull issued server command: /help GriefPrevention 5
-[12:49:35] [Server thread/INFO]: HenrickTheBull issued server command: /help GriefPrevention 6
-[12:50:03] [Server thread/INFO]: HenrickTheBull issued server command: /abandonallclaims confirm
-[12:50:09] [Server thread/INFO]: HenrickTheBull issued server command: /abandonallclaims confirm
-[12:50:50] [Server thread/INFO]: HenrickTheBull issued server command: //expand vert
-[12:51:10] [Server thread/INFO]: HenrickTheBull issued server command: /region create StarLink
-[12:51:21] [Server thread/INFO]: HenrickTheBull issued server command: /region flag StarLink
-[12:51:25] [Server thread/INFO]: HenrickTheBull issued server command: /region flag
-[12:51:26] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[12:51:28] [Server thread/INFO]: HenrickTheBull issued server command: /region flags
-[12:51:36] [Server thread/INFO]: HenrickTheBull issued server command: /region flags StarLink
-[12:51:56] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[12:52:08] [Server thread/INFO]: HenrickTheBull issued server command: /rg flags -w "world" -p 2 starlink
-[12:52:09] [Server thread/INFO]: HenrickTheBull issued server command: /rg flags -w "world" -p 3 starlink
-[12:52:10] [Server thread/INFO]: HenrickTheBull issued server command: /rg flags -w "world" -p 4 starlink
-[12:52:23] [Server thread/INFO]: HenrickTheBull issued server command: /rg flags -w "world" -p 3 starlink
-[12:52:27] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink mob-spawning DENY
-[12:52:38] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink mycelium-spread DENY
-[12:52:39] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink vine-growth DENY
-[12:52:40] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink crop-growth DENY
-[12:52:42] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink grass-growth DENY
-[12:52:45] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink leaf-decay DENY
-[12:52:46] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink mushroom-growth DENY
-[12:52:48] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink frosted-ice-form DENY
-[12:52:49] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink frosted-ice-melt DENY
-[12:52:50] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink ice-melt DENY
-[12:52:51] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink ice-form DENY
-[12:52:52] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink snow-melt DENY
-[12:52:56] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink snow-fall DENY
-[12:52:56] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[12:52:58] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink fire-spread DENY
-[12:52:59] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink lava-fire DENY
-[12:53:02] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 3 starlink pistons DENY
-[12:53:05] [Server thread/INFO]: HenrickTheBull issued server command: /rg flags -w "world" -p 2 starlink
-[12:53:08] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink item-frame-rotation DENY
-[12:53:10] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink block-trampling DENY
-[12:53:10] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink firework-damage DENY
-[12:53:12] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink use-anvil DENY
-[12:53:14] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink item-pickup ALLOW
-[12:53:15] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink item-drop ALLOW
-[12:53:16] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink exp-drops ALLOW
-[12:53:17] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink creeper-explosion DENY
-[12:53:19] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink mob-damage DENY
-[12:53:24] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink enderdragon-block-damage DENY
-[12:53:26] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink ghast-fireball DENY
-[12:53:26] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[12:53:26] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink other-explosion DENY
-[12:53:27] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink wither-damage DENY
-[12:53:28] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink enderman-grief DENY
-[12:53:29] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink snowman-trails DENY
-[12:53:31] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink ravager-grief DENY
-[12:53:34] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink entity-painting-destroy DENY
-[12:53:35] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 2 starlink entity-item-frame-destroy DENY
-[12:53:36] [Server thread/INFO]: HenrickTheBull issued server command: /rg flags -w "world" -p 1 starlink
-[12:53:36] [Craft Scheduler Thread - 271/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
-[12:53:39] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink use ALLOW
-[12:53:40] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink interact ALLOW
-[12:53:48] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink damage-animals DENY
-[12:53:49] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink pvp DENY
-[12:53:53] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink sleep ALLOW
-[12:53:55] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink sleep DENY
-[12:53:55] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink respawn-anchors DENY
-[12:53:56] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[12:53:57] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink tnt DENY
-[12:53:59] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink chest-access ALLOW
-[12:54:01] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink vehicle-place ALLOW
-[12:54:02] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink vehicle-destroy ALLOW
-[12:54:03] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink lighter DENY
-[12:54:04] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink ride ALLOW
-[12:54:05] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 1 starlink potion-splash ALLOW
-[12:54:06] [Server thread/INFO]: HenrickTheBull issued server command: /rg flags -w "world" -p 2 starlink
-[12:54:08] [Server thread/INFO]: HenrickTheBull issued server command: /rg flags -w "world" -p 3 starlink
-[12:54:09] [Server thread/INFO]: HenrickTheBull issued server command: /rg flags -w "world" -p 4 starlink
-[12:54:25] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 4 starlink time-lock night
-[12:54:26] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[12:54:40] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 4 starlink time-lock 2000
-[12:54:56] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[12:55:03] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 4 starlink fall-damage DENY
-[12:55:05] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 4 starlink natural-health-regen ALLOW
-[12:55:06] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 4 starlink natural-hunger-drain DENY
-[12:55:26] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[12:56:35] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 4 starlink time-lock 18000
-[12:56:56] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[12:56:59] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 4 starlink time-lock 24000
-[12:57:26] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[13:08:36] [Craft Scheduler Thread - 358/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
-[13:10:04] [Server thread/INFO]: HenrickTheBull issued server command: //expand 20 n
-[13:10:08] [Server thread/INFO]: HenrickTheBull issued server command: //expand 21 s
-[13:10:15] [Server thread/INFO]: HenrickTheBull issued server command: //expand 21 e
-[13:10:17] [Server thread/INFO]: HenrickTheBull issued server command: //expand 21 w
-[13:10:23] [Server thread/INFO]: HenrickTheBull issued server command: //set air
-[13:10:33] [Server thread/INFO]: HenrickTheBull issued server command: //expand 2 down
-[13:10:36] [Server thread/INFO]: HenrickTheBull issued server command: //set air
-[13:12:41] [Server thread/INFO]: HenrickTheBull issued server command: //set diamond_block
-[13:12:46] [Server thread/INFO]: HenrickTheBull issued server command: //set diamond_block
-[13:12:49] [Server thread/INFO]: HenrickTheBull issued server command: //set diamond_block
-[13:13:05] [Server thread/INFO]: HenrickTheBull issued server command: //set diamond_block
-[13:13:12] [Server thread/INFO]: HenrickTheBull has made the advancement [Bring Home the Beacon]
-[13:13:12] [Server thread/INFO]: HenrickTheBull has reached the goal [Beaconator]
-[13:14:17] [Server thread/INFO]: HenrickTheBull issued server command: /top
-[13:15:52] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-337, z270;New Summon;Pavillion
-[13:16:11] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-347, z270;Please Proceede;To The;Pavillion;Ahead
-[13:16:35] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-330, z270;Free Food;1 Stack;Per New Summon
-[13:16:58] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-330, z273;Free Bed;1 Per;New Summon
-[13:17:21] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-330, z276;Free Iron Armor;1 Set Per;New Summon
-[13:17:35] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-335, z275;Swords;1 Per New Summon
-[13:17:59] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-335, z269;Tools;1 Per New Summon
-[13:18:51] [Server thread/INFO]: HenrickTheBull issued server command: /clear
-[13:18:58] [Server thread/INFO]: HenrickTheBull issued server command: /give
-[13:19:06] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull bed
-[13:19:40] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull black_bed 64
-[13:20:20] [Server thread/INFO]: HenrickTheBull issued server command: /clear
-[13:20:30] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_h 64
-[13:20:33] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_he 64
-[13:20:38] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_helmet 64
-[13:20:45] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_chestplate 64
-[13:20:50] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_leggings 64
-[13:20:55] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_boots 64
-[13:21:18] [Server thread/INFO]: HenrickTheBull issued server command: /clear
-[13:22:18] [Server thread/INFO]: HenrickTheBull issued server command: /clear
-[13:22:39] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:40] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:41] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:42] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:42] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:43] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:44] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:45] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:45] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:46] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:46] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:46] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:47] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:47] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:47] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:48] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:48] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:48] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:49] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:49] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:49] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:50] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:50] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:50] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:51] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:51] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:51] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:52] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:22:52] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_chicken 64
-[13:23:15] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:16] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:18] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:18] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:19] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:19] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:20] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:20] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:21] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:21] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:22] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:22] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:23] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:23] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:23] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:24] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:24] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:25] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:25] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:26] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:26] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:36] [Craft Scheduler Thread - 447/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
-[13:23:42] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:42] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:43] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:23:44] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull cooked_beef 64
-[13:24:01] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_sword 64
-[13:24:16] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_axe 64
-[13:24:20] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_pickaxe 64
-[13:24:20] [Server thread/INFO]: HenrickTheBull has made the advancement [Isn't It Iron Pick]
-[13:24:30] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_hoe 64
-[13:24:39] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull iron_shovel 64
-[13:25:52] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-335, z274;When you are;ready to leave;use the paths;or /rtp
-[13:26:41] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 4 starlink time-lock 24000
-[13:26:56] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[13:27:14] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 4 starlink time-lock 8000
-[13:27:26] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[13:27:34] [Server thread/INFO]: HenrickTheBull issued server command: /rg flag -w "world" -h 4 starlink time-lock 18000
-[13:27:56] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[13:28:04] [Server thread/INFO]: HenrickTheBull issued server command: /day
-[13:31:42] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull boat 64
-[13:31:53] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull dark_oak_boat 64
-[13:32:07] [Server thread/INFO]: HenrickTheBull issued server command: /abandonallclaims confirm
-[13:32:34] [Server thread/INFO]: [GriefPrevention] HenrickTheBull placed a sign @ world: x-340, z286;Free Boats.;One per person.
-[13:33:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Executives] Henrick > https://cdn.discordapp.com/attachments/769346357781069825/869286433876213811/unknown.png
-[13:33:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Executives] Henrick > Here is the spawn.
-[13:33:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Executives] Henrick > This is it. Nothing more nothing less.
-[13:38:36] [Craft Scheduler Thread - 535/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
-[13:39:47] [Server thread/INFO]: HenrickTheBull issued server command: /spawnpoint
-[13:39:47] [Server thread/INFO]: [HenrickTheBull: Set spawn point to -350, 63, 272 [0.0] in minecraft:overworld for HenrickTheBull]
-[13:40:00] [Server thread/INFO]: HenrickTheBull issued server command: /hyperdrive help
-[13:40:06] [Server thread/INFO]: HenrickTheBull issued server command: /help hyperdrive
-[13:40:12] [Server thread/INFO]: HenrickTheBull issued server command: /help hyperdrive 2
-[13:40:26] [Server thread/INFO]: HenrickTheBull issued server command: /spawn
-[13:40:31] [Server thread/INFO]: HenrickTheBull issued server command: /help hyperdrive 3
-[13:40:48] [Server thread/INFO]: HenrickTheBull issued server command: /help hyperdrive 2
-[13:42:13] [Server thread/INFO]: HenrickTheBull issued server command: /spawn setfirstjoin
-[13:42:22] [Server thread/INFO]: HenrickTheBull issued server command: /spawn set
-[13:42:28] [Server thread/INFO]: HenrickTheBull issued server command: /spawn
-[13:44:51] [Server thread/INFO]: HenrickTheBull lost connection: Disconnected
-[13:44:51] [Server thread/INFO]: HenrickTheBull left the game
-[13:46:48] [User Authenticator #3/INFO]: UUID of player HenrickTheBull is 20a38fd6-2ab7-454a-b67f-6bfe0453c311
-[13:46:48] [Server thread/INFO]: HenrickTheBull joined the game
-[13:46:48] [Server thread/INFO]: HenrickTheBull[/192.168.0.174:50194] logged in with entity id 10110 at ([world]-331.9136831811639, 63.0, 288.86554295980403)
-[13:46:51] [Craft Scheduler Thread - 584/INFO]: [mcMMO] Creating new data for player: HenrickTheBull
-[13:47:15] [Server thread/INFO]: HenrickTheBull issued server command: /day
-[13:47:23] [Server thread/INFO]: HenrickTheBull issued server command: /gms
-[13:50:45] [Server thread/INFO]: HenrickTheBull issued server command: /give HenrickTheBull bone 10
-[13:50:52] [Server thread/INFO]: HenrickTheBull has made the advancement [Best Friends Forever]
-[13:53:36] [Craft Scheduler Thread - 621/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
-[13:53:39] [Server thread/INFO]: HenrickTheBull issued server command: /wb
-[13:53:46] [Server thread/INFO]: HenrickTheBull issued server command: /enderchest
-[13:53:48] [Server thread/INFO]: HenrickTheBull issued server command: /ec
-[13:53:52] [Server thread/INFO]: HenrickTheBull issued server command: /anvil
-[13:54:22] [Server thread/INFO]: HenrickTheBull issued server command: /gmc
-[13:54:41] [Server thread/INFO]: HenrickTheBull issued server command: //wand
-[13:54:50] [Server thread/INFO]: HenrickTheBull issued server command: //expand 100 up
-[13:54:56] [Server thread/INFO]: HenrickTheBull issued server command: //expand 100 west
-[13:54:59] [Server thread/INFO]: HenrickTheBull issued server command: //set air
-[13:55:26] [Server thread/INFO]: HenrickTheBull issued server command: //desel
-[13:55:42] [Server thread/INFO]: HenrickTheBull issued server command: //expand 100 up
-[13:55:45] [Server thread/INFO]: HenrickTheBull issued server command: //expand 100 east
-[13:55:50] [Server thread/INFO]: HenrickTheBull issued server command: //set air
-[13:56:12] [Server thread/INFO]: HenrickTheBull issued server command: //expand 50 east
-[13:56:19] [Server thread/INFO]: HenrickTheBull issued server command: //set air
-[13:56:25] [Server thread/INFO]: HenrickTheBull issued server command: //set air
-[13:57:01] [Server thread/INFO]: HenrickTheBull issued server command: //desel
-[13:57:08] [Server thread/INFO]: HenrickTheBull lost connection: Disconnected
-[13:57:08] [Server thread/INFO]: HenrickTheBull left the game
-[13:57:33] [Server thread/INFO]: Stopping server
-[13:57:33] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[13:57:33] [Server console handler/ERROR]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Input/output error
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:143) ~[patched_1.17.1.jar:git-Paper-132]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[patched_1.17.1.jar:git-Paper-132]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[patched_1.17.1.jar:git-Paper-132]
-	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848) ~[patched_1.17.1.jar:git-Paper-132]
-	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868) ~[patched_1.17.1.jar:git-Paper-132]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575) ~[patched_1.17.1.jar:git-Paper-132]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[patched_1.17.1.jar:git-Paper-132]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[patched_1.17.1.jar:git-Paper-132]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[patched_1.17.1.jar:git-Paper-132]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:113) ~[patched_1.17.1.jar:git-Paper-132]
-Caused by: java.io.IOException: Input/output error
-	at java.io.FileInputStream.read0(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:223) ~[?:?]
-	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[patched_1.17.1.jar:git-Paper-132]
-	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[patched_1.17.1.jar:git-Paper-132]
-	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[patched_1.17.1.jar:git-Paper-132]
-	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[patched_1.17.1.jar:git-Paper-132]
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133) ~[patched_1.17.1.jar:git-Paper-132]
-	... 9 more
-[13:57:33] [Server thread/INFO]: Saving players
-[13:57:33] [Server thread/INFO]: Saving worlds
-[13:57:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:57:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:57:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:57:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:57:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:57:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:57:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:57:38] [Server thread/INFO]: Flushing Chunk IO
-[13:57:38] [Server thread/INFO]: Closing Thread Pool
-[13:57:38] [Server thread/INFO]: Closing Server
+[17:08:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:08:32] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[17:08:33] [Worker-Main-1/INFO]: Loaded 7 recipes
+[17:08:36] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[17:08:36] [Server thread/INFO]: Loading properties
+[17:08:36] [Server thread/INFO]: This server is running Paper version git-Paper-132 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: efd7e51)
+[17:08:36] [Server thread/INFO]: Debug logging is disabled
+[17:08:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:08:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:08:36] [Server thread/INFO]: Default game type: SURVIVAL
+[17:08:36] [Server thread/INFO]: Generating keypair
+[17:08:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:08:36] [Server thread/INFO]: Using epoll channel type
+[17:08:37] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:08:44] [Server thread/WARN]: Legacy plugin TreeCapitator v1.0 does not specify an api-version.
+[17:08:44] [Server thread/INFO]: [FarmControl] Loading FarmControl v1.1.8
+[17:08:44] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.50
+[17:08:45] [Server thread/INFO]: [BlueMap] Loading BlueMap v1.5.5
+[17:08:45] [Server thread/INFO]: [TreeCapitator] Loading TreeCapitator v1.0
+[17:08:45] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.4.1-SNAPSHOT
+[17:08:45] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[17:08:45] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.6-beta-01+1415e6f
+[17:08:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6a4e469f]
+[17:08:46] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0-dev+197-5e17894
+[17:08:46] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[17:08:46] [Server thread/INFO]: [WorldEditSUI] Loading WorldEditSUI v1.7.1
+[17:08:46] [Server thread/INFO]: [mcMMO] Loading mcMMO v2.1.200
+[17:08:46] [Server thread/INFO]: [mcMMO] Registered WG flags successfully!
+[17:08:46] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.17.1-2b69191
+[17:08:46] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
+[17:08:46] [Server thread/INFO]: [HyperDrive] Loading HyperDrive v5.4.9
+[17:08:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:08:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.50
+[17:08:46] [Server thread/INFO]:         __    
+[17:08:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.50
+[17:08:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:08:46] [Server thread/INFO]: 
+[17:08:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:08:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:08:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:08:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:08:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2050ms)
+[17:08:48] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:08:48] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.0-dev+197-5e17894 which is not a depend, softdepend or loadbefore of this plugin.
+[17:08:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:08:48] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:08:48] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:08:48] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:08:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.6-beta-01+1415e6f
+[17:08:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:08:48] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:08:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_17_R1_2 as the Bukkit adapter
+[17:08:50] [Server thread/INFO]: Preparing level "world"
+[17:08:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:08:57] [Server thread/INFO]: Time elapsed: 6236 ms
+[17:08:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:02] [Server thread/INFO]: Time elapsed: 5074 ms
+[17:09:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:09:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:09:15] [Worker-Main-2/INFO]: Preparing spawn area: 11%
+[17:09:16] [Server thread/INFO]: Preparing spawn area: 45%
+[17:09:16] [Server thread/INFO]: Time elapsed: 13612 ms
+[17:09:16] [Server thread/INFO]: [FarmControl] Enabling FarmControl v1.1.8
+[17:09:16] [Server thread/INFO]: [BlueMap] Enabling BlueMap v1.5.5
+[17:09:16] [Server thread/INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
+[17:09:16] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[17:09:16] [Server thread/INFO]: [TreeCapitator] Enabling TreeCapitator v1.0*
+[17:09:16] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.4.1-SNAPSHOT
+[17:09:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:09:17] [Server thread/INFO]: [Geyser-Spigot] 
+[17:09:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.4.1-SNAPSHOT (git-master-46cd26f)
+[17:09:17] [Server thread/INFO]: [Geyser-Spigot] 
+[17:09:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:09:23] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[17:09:23] [Server thread/INFO]: [Geyser-Spigot] Done (5.683s)! Run /geyser help for help!
+[17:09:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0-dev+197-5e17894
+[17:09:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:09:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:09:23] [Server thread/INFO]: [Essentials] Loaded 36837 items from items.json.
+[17:09:23] [Server thread/INFO]: [Essentials] Using locale en_US
+[17:09:23] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:09:23] [Server thread/INFO]: [Essentials] Metrics disabled per bStats config.
+[17:09:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[17:09:23] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[17:09:23] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[17:09:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[17:09:24] [Server thread/INFO]: [WorldGuard] Loading region data...
+[17:09:24] [Server thread/INFO]: [WorldEditSUI] Enabling WorldEditSUI v1.7.1
+[17:09:24] [Server thread/INFO]: [WorldEditSUI] Plugin by KennyTV
+[17:09:24] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.200
+[17:09:24] [Server thread/INFO]: [mcMMO] [Debug] Loading mcMMO config.yml File...
+[17:09:25] [Server thread/INFO]: [mcMMO] [Debug] No errors found in config.yml!
+[17:09:25] [Server thread/INFO]: [mcMMO] Loading locale from plugins/mcMMO/locales/locale_override.properties
+[17:09:25] [Server thread/INFO]: [mcMMO] [Debug] Loading mcMMO advanced.yml File...
+[17:09:25] [Server thread/INFO]: [mcMMO] [Debug] No errors found in advanced.yml!
+[17:09:25] [Server thread/INFO]: [mcMMO] Platform String: 1.17.1-R0.1-SNAPSHOT
+[17:09:25] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.17.1
+[17:09:25] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
+[17:09:25] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
+[17:09:25] [Server thread/INFO]: [mcMMO] Registering enchantments for Fishing Book...
+[17:09:30] [Server thread/INFO]: [mcMMO] (plugins/mcMMO/flatfile/mcmmo.users) Validating database file..
+[17:09:31] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
+[17:09:31] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
+[17:09:31] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[17:09:31] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.17.1-2b69191
+[17:09:31] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[17:09:31] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[17:09:32] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[17:09:32] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[17:09:32] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[17:09:32] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[17:09:32] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
+[17:09:32] [Server thread/INFO]: [HyperDrive] Enabling HyperDrive v5.4.9
+[17:09:32] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] An invalid length bot token (33) has been set in the config; a valid bot token is required to connect to Discord.
+[17:09:32] [Server thread/INFO]: [HyperDrive] Everything inside the configuration seems to be up to date. (Took 15ms)
+[17:09:32] [Server thread/INFO]: [HyperDrive] Async chunk retrieving methods were found!
+[17:09:32] [Server thread/INFO]: [HyperDrive] Communication to the database was successful. (Took 0ms)
+[17:09:32] [Server thread/INFO]: [HyperDrive] v1_17_R1 packets were successfully setup! (Took 1ms)
+[17:09:32] [Server thread/INFO]: [HyperDrive] Everything is set and ready to go! (Took 121ms)
+[17:09:33] [Server thread/INFO]: [HyperDrive] Everything seems to be up to date!
+[17:09:34] [Server thread/INFO]: Running delayed init tasks
+[17:09:34] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[17:09:34] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
+[17:09:34] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading...
+[17:09:34] [Craft Scheduler Thread - 6/INFO]: [Essentials] Fetching version information...
+[17:09:34] [Craft Scheduler Thread - 5/INFO]: [mcMMO] Cleaned backup files. Deleted 3 of 6 files.
+[17:09:34] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[17:09:34] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 144ms
+[17:09:34] [Server thread/INFO]: Done (58.426s)! For help, type "help"
+[17:09:34] [Server thread/INFO]: Timings Reset
+[17:09:34] [pool-43-thread-1/WARN]: [DiscordSRV] Update check failed: zip file closed
+[17:09:34] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading resources...
+[17:09:34] [Thread-19/INFO]: [BlueMap] WebServer started.
+[17:09:34] [Craft Scheduler Thread - 6/WARN]: [Essentials] You're 25 EssentialsX dev build(s) out of date!
+[17:09:34] [Craft Scheduler Thread - 6/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[17:09:35] [User Authenticator #1/INFO]: UUID of player HenrickTheBull is 20a38fd6-2ab7-454a-b67f-6bfe0453c311
+[17:09:35] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
+[17:09:36] [Server thread/INFO]: HenrickTheBull joined the game
+[17:09:36] [Server thread/INFO]: HenrickTheBull[/192.168.0.174:49915] logged in with entity id 172 at ([world]-327.98117566599717, 74.68839011205883, 265.209378047658)
+[17:09:36] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 81.368771ms. Summary: Getting group for HenrickTheBull
+[17:09:37] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading bluemap assets (1/3)...
+[17:09:37] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading realms assets (2/3)...
+[17:09:38] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loading minecraft assets (3/3)...
+[17:09:41] [Craft Scheduler Thread - 4/INFO]: [BlueMap] Loaded!
+[17:10:39] [Server thread/INFO]: HenrickTheBull issued server command: /day
+[17:10:45] [Server thread/INFO]: HenrickTheBull lost connection: Disconnected
+[17:10:45] [Server thread/INFO]: HenrickTheBull left the game
+[17:10:53] [User Authenticator #2/INFO]: UUID of player HenrickTheBull is 20a38fd6-2ab7-454a-b67f-6bfe0453c311
+[17:10:53] [Server thread/INFO]: HenrickTheBull joined the game
+[17:10:53] [Server thread/INFO]: HenrickTheBull[/192.168.0.174:58202] logged in with entity id 742 at ([world]-325.27016771209514, 63.0, 307.51032312297883)
+[17:10:55] [Server thread/INFO]: Named entity EntityZombie['Zombie'/627, uuid='b5ff000a-77c7-4bcb-9812-5ebe8854a848', l='ServerLevel[world]', x=-317.44, y=63.00, z=312.65, cpos=[-20, 19], tl=590, v=true, rR=null] died: Zombie was slain by Wolf
+[17:14:18] [Server thread/INFO]: HenrickTheBull issued server command: //desel
+[17:16:46] [Server thread/INFO]: HenrickTheBull issued server command: /help GriefPrevention
+[17:17:04] [Server thread/INFO]: HenrickTheBull issued server command: /help GriefPrevention 2
+[17:17:20] [Server thread/INFO]: HenrickTheBull issued server command: /claimbook
+[17:17:25] [Server thread/INFO]: HenrickTheBull issued server command: /claimbook HenrickTheBull
+[17:18:29] [Server thread/INFO]: HenrickTheBull issued server command: /abandonallclaims confirm
+[17:20:03] [Server thread/INFO]: HenrickTheBull issued server command: /gms
+[17:21:15] [Server thread/INFO]: HenrickTheBull issued server command: /gmc
+[17:22:21] [Server thread/INFO]: HenrickTheBull lost connection: Disconnected
+[17:22:21] [Server thread/INFO]: HenrickTheBull left the game
+[17:24:34] [Craft Scheduler Thread - 95/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
+[17:33:22] [Server thread/INFO]: Stopping server
+[17:33:22] [Server thread/INFO]: [HyperDrive] Disabling HyperDrive v5.4.9
+[17:33:22] [Server thread/INFO]: [HyperDrive] All warps have been saved! (Took 0ms)
+[17:33:22] [Server thread/WARN]: [HyperDrive] The SQL connection has been completely closed.
+[17:33:22] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.17.1-2b69191
+[17:33:22] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[17:33:22] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.1.200
+[17:33:22] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[17:33:22] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[17:33:22] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[17:33:22] [Server thread/INFO]: [WorldEditSUI] Disabling WorldEditSUI v1.7.1
+[17:33:22] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[17:33:22] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[17:33:22] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.0-dev+197-5e17894
+[17:33:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[17:33:22] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.6-beta-01+1415e6f
+[17:33:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:33:22] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[17:33:22] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v1.4.1-SNAPSHOT
+[17:33:22] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[17:33:22] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[17:33:22] [Server thread/INFO]: [TreeCapitator] Disabling TreeCapitator v1.0
+[17:33:22] [Server thread/INFO]: [BlueMap] Disabling BlueMap v1.5.5
+[17:33:22] [Server thread/INFO]: [BlueMap] Stopping...
+[17:33:23] [Thread-19/INFO]: [BlueMap] WebServer closed.
+[17:33:23] [Server thread/INFO]: [BlueMap] Saved and stopped!
+[17:33:23] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.50
+[17:33:23] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:33:23] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:33:23] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:33:23] [Server thread/INFO]: [FarmControl] Disabling FarmControl v1.1.8
+[17:33:23] [Server thread/INFO]: Saving players
+[17:33:23] [Server thread/INFO]: Saving worlds
+[17:33:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:33:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:33:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:33:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:33:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:33:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:33:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:33:27] [Server thread/INFO]: Flushing Chunk IO
+[17:33:27] [Server thread/INFO]: Closing Thread Pool
+[17:33:27] [Server thread/INFO]: Closing Server
